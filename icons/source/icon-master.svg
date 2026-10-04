@@ -1,0 +1,92 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1024" height="1024" viewBox="0 0 1024 1024"><defs>
+  <clipPath id="ma"><path d="M512,410 C585,366 700,322 912,250 C884,346 892,428 852,524 C816,606 740,654 658,654 C598,654 568,606 512,580 C456,606 426,654 366,654 C284,654 208,606 172,524 C132,428 140,346 112,250 C324,322 439,366 512,410 Z"/></clipPath>
+  <clipPath id="ba"><path d="M622,170 L1100,170 L1100,790 L402,790 Z"/></clipPath>
+  <clipPath id="pa"><path d="M622,170 L-80,170 L-80,790 L402,790 Z"/></clipPath>
+  <linearGradient id="gpa" x1="0" y1="0" x2=".4" y2="1"><stop offset="0" stop-color="#A066DA"/><stop offset=".45" stop-color="#5B2A86"/><stop offset="1" stop-color="#22103A"/></linearGradient>
+  <linearGradient id="gba" x1="1" y1="0" x2=".5" y2="1"><stop offset="0" stop-color="#8CCBFF"/><stop offset=".45" stop-color="#1E90FF"/><stop offset="1" stop-color="#083566"/></linearGradient>
+  <linearGradient id="gga" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#D4FF9E"/><stop offset=".5" stop-color="#7CFF3A"/><stop offset="1" stop-color="#3C9A12"/></linearGradient>
+  <linearGradient id="gca" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#E4F3FF" stop-opacity=".95"/><stop offset="1" stop-color="#9AD0FF" stop-opacity=".55"/></linearGradient>
+  <linearGradient id="rima" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#B8FF7A"/><stop offset=".5" stop-color="#E9D8FF"/><stop offset="1" stop-color="#BFE3FF"/></linearGradient>
+  <linearGradient id="shadea" x1="0" y1="0" x2="0" y2="1"><stop offset=".25" stop-color="#000"/><stop offset=".62" stop-color="#777"/><stop offset="1" stop-color="#fff"/></linearGradient>
+  <linearGradient id="shade2a" x1="0" y1="0" x2="0" y2="1"><stop offset=".55" stop-color="#000"/><stop offset="1" stop-color="#fff"/></linearGradient>
+  <linearGradient id="hila" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#fff"/><stop offset=".35" stop-color="#000"/></linearGradient>
+  <mask id="msa"><rect x="0" y="0" width="1024" height="1024" fill="url(#shadea)"/></mask>
+  <mask id="ms2a"><rect x="0" y="0" width="1024" height="1024" fill="url(#shade2a)"/></mask>
+  <mask id="mha"><rect x="0" y="0" width="1024" height="1024" fill="url(#hila)"/></mask>
+  <pattern id="dotsa" width="16" height="16" patternUnits="userSpaceOnUse" patternTransform="rotate(45 512 512)"><circle cx="8" cy="8" r="4.2" fill="#0B0618"/></pattern>
+  <pattern id="dotsBiga" width="16" height="16" patternUnits="userSpaceOnUse" patternTransform="rotate(45 512 512)"><circle cx="8" cy="8" r="6.6" fill="#0B0618"/></pattern>
+  <pattern id="dotsHia" width="14" height="14" patternUnits="userSpaceOnUse" patternTransform="rotate(30 512 512)"><circle cx="7" cy="7" r="3" fill="#fff"/></pattern>
+  <pattern id="bgdotsa" width="22" height="22" patternUnits="userSpaceOnUse" patternTransform="rotate(45 512 512)"><circle cx="11" cy="11" r="2.4" fill="#fff"/></pattern>
+  <filter id="rougha" x="-10%" y="-10%" width="120%" height="120%"><feTurbulence type="fractalNoise" baseFrequency="0.032" numOctaves="2" seed="4" result="n"/><feDisplacementMap in="SourceGraphic" in2="n" scale="11" xChannelSelector="R" yChannelSelector="G"/></filter>
+  <filter id="rough2a" x="-10%" y="-10%" width="120%" height="120%"><feTurbulence type="fractalNoise" baseFrequency="0.06" numOctaves="3" seed="9" result="n"/><feDisplacementMap in="SourceGraphic" in2="n" scale="7" xChannelSelector="R" yChannelSelector="G"/></filter>
+  <filter id="brusha" x="-20%" y="-20%" width="140%" height="140%"><feTurbulence type="fractalNoise" baseFrequency="0.012 0.09" numOctaves="3" seed="2" result="n"/><feDisplacementMap in="SourceGraphic" in2="n" scale="26" xChannelSelector="R" yChannelSelector="G" result="d"/><feGaussianBlur in="d" stdDeviation="1.2"/></filter>
+  <filter id="graina" x="0" y="0" width="100%" height="100%"><feTurbulence type="fractalNoise" baseFrequency="0.85" numOctaves="2" seed="7" stitchTiles="stitch"/><feColorMatrix type="matrix" values="0 0 0 0 1  0 0 0 0 1  0 0 0 0 1  0 0 0 1.6 -0.55"/></filter>
+  <filter id="grainDarka" x="0" y="0" width="100%" height="100%"><feTurbulence type="fractalNoise" baseFrequency="0.6" numOctaves="2" seed="13" stitchTiles="stitch"/><feColorMatrix type="matrix" values="0 0 0 0 0  0 0 0 0 0  0 0 0 0 0  0 0 0 1.8 -0.7"/></filter>
+  <filter id="glowa" x="-30%" y="-30%" width="160%" height="160%"><feGaussianBlur stdDeviation="34"/></filter>
+  <filter id="softa" x="-10%" y="-10%" width="120%" height="120%"><feGaussianBlur stdDeviation="3"/></filter>
+  <radialGradient id="bga" cx=".5" cy=".46" r=".7"><stop offset="0" stop-color="#21173A"/><stop offset=".55" stop-color="#110D1E"/><stop offset="1" stop-color="#07070C"/></radialGradient>
+</defs>
+  <rect width="1024" height="1024" fill="url(#bga)"/>
+  <path d="M0,0 L640,0 L384,1024 L0,1024 Z" fill="#5B2A86" opacity=".16"/>
+  <path d="M640,0 L1024,0 L1024,1024 L384,1024 Z" fill="#1E90FF" opacity=".07"/>
+  <g fill="#8A4FC4" opacity=".07"><path d="M512,512 L1411,481 L1411,543 Z"/><path d="M512,512 L1396,681 L1382,743 Z"/><path d="M512,512 L1336,874 L1309,931 Z"/><path d="M512,512 L1235,1048 L1196,1097 Z"/><path d="M512,512 L1097,1196 L1048,1235 Z"/><path d="M512,512 L931,1309 L874,1336 Z"/><path d="M512,512 L743,1382 L681,1396 Z"/><path d="M512,512 L543,1411 L481,1411 Z"/><path d="M512,512 L343,1396 L281,1382 Z"/><path d="M512,512 L150,1336 L93,1309 Z"/><path d="M512,512 L-24,1235 L-73,1196 Z"/><path d="M512,512 L-172,1097 L-211,1048 Z"/><path d="M512,512 L-285,931 L-312,874 Z"/><path d="M512,512 L-358,743 L-372,681 Z"/><path d="M512,512 L-387,543 L-387,481 Z"/><path d="M512,512 L-372,343 L-358,281 Z"/><path d="M512,512 L-312,150 L-285,93 Z"/><path d="M512,512 L-211,-24 L-172,-73 Z"/><path d="M512,512 L-73,-172 L-24,-211 Z"/><path d="M512,512 L93,-285 L150,-312 Z"/><path d="M512,512 L281,-358 L343,-372 Z"/><path d="M512,512 L481,-387 L543,-387 Z"/><path d="M512,512 L681,-372 L743,-358 Z"/><path d="M512,512 L874,-312 L931,-285 Z"/><path d="M512,512 L1048,-211 L1097,-172 Z"/><path d="M512,512 L1196,-73 L1235,-24 Z"/><path d="M512,512 L1309,93 L1336,150 Z"/><path d="M512,512 L1382,281 L1396,343 Z"/></g>
+  <rect width="1024" height="1024" fill="url(#bgdotsa)" opacity=".05"/>
+  <rect width="1024" height="1024" filter="url(#graina)" opacity=".07"/>
+  <g transform="translate(-35.8 -3.7) scale(1.07)">
+  <!-- outer glow for depth -->
+  <g filter="url(#glowa)" opacity=".75"><path d="M512,410 C585,366 700,322 912,250 C884,346 892,428 852,524 C816,606 740,654 658,654 C598,654 568,606 512,580 C456,606 426,654 366,654 C284,654 208,606 172,524 C132,428 140,346 112,250 C324,322 439,366 512,410 Z" fill="#5B2A86"/><g clip-path="url(#ba)"><path d="M512,410 C585,366 700,322 912,250 C884,346 892,428 852,524 C816,606 740,654 658,654 C598,654 568,606 512,580 C456,606 426,654 366,654 C284,654 208,606 172,524 C132,428 140,346 112,250 C324,322 439,366 512,410 Z" fill="#1E90FF"/></g></g>
+  <!-- heavy ink drop shadow: thicker line weight bottom-right -->
+  <g filter="url(#rougha)"><path d="M512,410 C585,366 700,322 912,250 C884,346 892,428 852,524 C816,606 740,654 658,654 C598,654 568,606 512,580 C456,606 426,654 366,654 C284,654 208,606 172,524 C132,428 140,346 112,250 C324,322 439,366 512,410 Z" fill="#000" transform="translate(16 24)"/></g>
+  <g clip-path="url(#ma)">
+    <!-- chaos half -->
+    <g clip-path="url(#pa)">
+      <rect x="0" y="150" width="1024" height="700" fill="url(#gpa)"/>
+      <rect x="0" y="150" width="1024" height="700" fill="url(#dotsa)" mask="url(#msa)" opacity=".85"/>
+      <rect x="0" y="150" width="1024" height="700" fill="url(#dotsBiga)" mask="url(#ms2a)" opacity=".7"/>
+      <rect x="0" y="150" width="1024" height="700" fill="url(#dotsHia)" mask="url(#mha)" opacity=".22"/>
+      <g filter="url(#brusha)" fill="none" stroke-linecap="round">
+        <path d="M150,300 C260,330 360,370 470,420" stroke="#E7D2FF" stroke-width="22" opacity=".42"/>
+        <path d="M190,360 C260,380 320,410 380,445" stroke="#E7D2FF" stroke-width="12" opacity=".3"/>
+        <path d="M200,560 C260,610 330,630 400,620" stroke="#12061f" stroke-width="30" opacity=".45"/>
+      </g>
+    </g>
+    <!-- control half -->
+    <g clip-path="url(#ba)">
+      <rect x="0" y="150" width="1024" height="700" fill="url(#gba)"/>
+      <rect x="0" y="150" width="1024" height="700" fill="url(#dotsa)" mask="url(#msa)" opacity=".7"/>
+      <rect x="0" y="150" width="1024" height="700" fill="url(#dotsBiga)" mask="url(#ms2a)" opacity=".55"/>
+      <path d="M548,260 L596,260 L746,470 L596,680 L548,680 L698,470 Z M664,260 L712,260 L862,470 L712,680 L664,680 L814,470 Z M780,260 L828,260 L978,470 L828,680 L780,680 L930,470 Z" fill="url(#gca)" opacity=".62"/>
+      <path d="M548,260 L596,260 L746,470 L596,680 L548,680 L698,470 Z M664,260 L712,260 L862,470 L712,680 L664,680 L814,470 Z M780,260 L828,260 L978,470 L828,680 L780,680 L930,470 Z" fill="none" stroke="#03182F" stroke-width="9" stroke-linejoin="miter"/>
+      <rect x="0" y="150" width="1024" height="700" fill="url(#dotsHia)" mask="url(#mha)" opacity=".2"/>
+      <g filter="url(#brusha)" fill="none" stroke-linecap="round">
+        <path d="M560,405 C680,350 790,310 880,285" stroke="#E6F4FF" stroke-width="20" opacity=".45"/>
+      </g>
+    </g>
+    <!-- jagged acid-green chaos edge -->
+    <g filter="url(#rough2a)">
+      <path d="M622.0,170.0 L539.2,179.6 L577.4,243.6 L509.3,259.8 L553.7,308.0 L476.1,323.8 L533.7,374.4 L456.3,377.1 L514.0,442.5 L418.8,460.6 L475.2,524.5 L437.9,543.1 L460.7,591.9 L404.5,604.6 L435.3,644.2 L356.1,654.8 L407.6,713.6 L338.8,729.4 L388.4,785.2 L402.0,790.0 Z" fill="url(#gga)"/>
+      <path d="M622.0,170.0 L539.2,179.6 L577.4,243.6 L509.3,259.8 L553.7,308.0 L476.1,323.8 L533.7,374.4 L456.3,377.1 L514.0,442.5 L418.8,460.6 L475.2,524.5 L437.9,543.1 L460.7,591.9 L404.5,604.6 L435.3,644.2 L356.1,654.8 L407.6,713.6 L338.8,729.4 L388.4,785.2 L402.0,790.0 Z" fill="none" stroke="#000" stroke-width="9" stroke-linejoin="round"/>
+    </g>
+    <!-- painterly grain over everything inside the mask -->
+    <rect x="0" y="0" width="1024" height="1024" filter="url(#graina)" opacity=".22" style="mix-blend-mode:overlay"/>
+    <rect x="0" y="0" width="1024" height="1024" filter="url(#grainDarka)" opacity=".35"/>
+    <!-- rim light along the top edges -->
+    <path d="M512,410 C585,366 700,322 912,250 C884,346 892,428 852,524 C816,606 740,654 658,654 C598,654 568,606 512,580 C456,606 426,654 366,654 C284,654 208,606 172,524 C132,428 140,346 112,250 C324,322 439,366 512,410 Z" fill="none" stroke="url(#rima)" stroke-width="10" transform="translate(-5 9)" opacity=".85" filter="url(#softa)"/>
+    <!-- crisp split line (control side is precise) -->
+    <path d="M622,170 L402,790" stroke="#000" stroke-width="12"/>
+  </g>
+  <!-- hand-inked outline: uneven weight, rough edge -->
+  <g filter="url(#rougha)" fill="none" stroke="#000" stroke-linejoin="round">
+    <path d="M512,410 C585,366 700,322 912,250 C884,346 892,428 852,524 C816,606 740,654 658,654 C598,654 568,606 512,580 C456,606 426,654 366,654 C284,654 208,606 172,524 C132,428 140,346 112,250 C324,322 439,366 512,410 Z" stroke-width="30"/>
+  </g>
+  <!-- eye holes -->
+  <g filter="url(#rougha)">
+    <path d="M458,498 C428,436 330,414 252,442 C274,508 372,540 458,498 Z" fill="#07070C" stroke="#000" stroke-width="22" stroke-linejoin="round"/>
+    <path d="M566,498 C596,436 694,414 772,442 C750,508 652,540 566,498 Z" fill="#07070C" stroke="#000" stroke-width="22" stroke-linejoin="round"/>
+  </g>
+  <path d="M458,498 C428,436 330,414 252,442 C274,508 372,540 458,498 Z" fill="none" stroke="#7CFF3A" stroke-width="4" opacity=".55" transform="translate(4 -5) scale(1)" filter="url(#softa)"/>
+  <path d="M566,498 C596,436 694,414 772,442 C750,508 652,540 566,498 Z" fill="none" stroke="#6CB8FF" stroke-width="4" opacity=".55" transform="translate(-4 -5)" filter="url(#softa)"/>
+  <!-- flying chaos shards -->
+  <g filter="url(#rough2a)" fill="#7CFF3A" stroke="#000" stroke-width="8" stroke-linejoin="round"><path d="M512,241 L529,277 L506,301 L494,268 Z" transform="rotate(20 512 271)"/><path d="M452,180 L463,204 L448,220 L440,198 Z" transform="rotate(-30 452 200)"/><path d="M386,252 L395,271 L383,284 L376,266 Z" transform="rotate(60 386 268)"/><path d="M567,192 L574,209 L564,220 L558,205 Z" transform="rotate(10 567 206)"/><path d="M333,608 L343,629 L329,644 L322,624 Z" transform="rotate(45 333 626)"/><path d="M395,677 L402,692 L393,703 L387,689 Z" transform="rotate(-15 395 690)"/></g>
+</g>
+</svg>
